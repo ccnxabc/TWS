@@ -62,7 +62,7 @@ cid=int(time.time())
 while __name__ == "__main__":
 
     #because of there is no define for clientID in TWS,delete it here.
-    conn = Connection.create(port=7496)
+    conn = Connection.create(port=7496, clientId=999)
     #conn = Connection.create(port=7496)
 
     #registerAll(watcher) copy from github  ...\IbPy\demo\fancy_marketdata
